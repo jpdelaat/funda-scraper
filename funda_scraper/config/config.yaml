@@ -31,10 +31,10 @@ keep_cols:
     - photo
 css_selector:
   url: none
-  price: ".object-header__price"
-  address: ".object-header__title"
-  descrip: ".object-description-body"
-  listed_since: ".fd-align-items-center:nth-child(6) span"
+  price: "dt:nth-child(1)"
+  address: "dd"
+  descrip: "h1 span"
+  listed_since: "div.mt-2 div#headlessui-disclosure-panel-na95v21Wgfm-30"
   zip_code: ".object-header__subtitle"
   size: ".object-kenmerken-list:nth-child(8) .fd-align-items-center:nth-child(5) span"
   year: ".fd-align-items-center~ .fd-align-items-center .fd-m-right-xs"
